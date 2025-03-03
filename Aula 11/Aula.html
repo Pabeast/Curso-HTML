@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula</title>
+    <style>
+        label{cursor:pointer;}
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+<p>Formulário</p>
+<p>
+    <label for="name-forms">Nome:</label>
+    <input type="text" id="name-forms" name="nome" placeholder="Seu Nome" required> 
+</p>
+<p>
+    <label for="email-forms">Email:</label>
+    <input type="email" id="email-forms" name="email" placeholder="Seu Email" required> 
+</p>
+<p>
+    <label for="dev">Sou um Dev</label>
+    <input type="checkbox" id="dev" name="dev" value="sim"> 
+</p>
+<p>
+    <label for="masculino">Homem</label>
+    <input type="radio" id="masculino" name="genero" value="masculino"><br>    
+     <label for="feminino">Mulher</label>
+    <input type="radio" id="feminino" name="genero" value="feminino">  <br>
+    <label for="outro">Outro</label>
+    <input type="radio" id="outro" name="genero" value="outro"> 
+</p>
+<p>
+    <label for="date">Data:</label>
+    <input type="date" id="date" name="data" value="2024-12-25"  required> 
+</p>
+<p>
+    <label for="file">Sua Foto</label>
+    <input type="file" id="file" name="file" placeholder="Seu Email" accept=".png,.svg,image/*" multiple> 
+</p>
+<p>
+    <label for="number">Number</label>
+    <input type="number" id="number" name="number" min="10" max="50" step="10" required> 
+    <p>
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha" required> 
+    </p> 
+    <p>
+        <label for="url">Url</label>
+        <input type="url" id="url" name="url" placeholder="Digite sua url" required> 
+    </p> 
+    <p>
+        <label for="search">search</label>
+        <input type="search" id="search" name="search" placeholder="Pesquise" required> 
+    </p>
+    <p>
+        <label for="select">Selecione a opção correta</label>
+        <select id="select" name="select">
+            <option value="qualquer 1" label="label 1"></option>
+            <option value="qualquer 2" label="label 2"></option>
+            <option value="qualquer 3" label="label 3"></option>
+        </select>
+    </p>
+    <p>
+        <label for="textarea">textarea</label>
+        <textarea id="textarea" name="textarea" rows="8"></textarea> 
+    </p>
+<p>
+    <button type="submit">Enviar</button>
+    <button type="reset">Reset</button>
+</p>
+    </form>
+</body>
+</html>
