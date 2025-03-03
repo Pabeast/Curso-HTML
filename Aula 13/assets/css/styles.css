@@ -1,0 +1,12 @@
+*{margin:0;padding:0}
+
+.heading {color:red}
+.subtitulo {color:blue}
+
+ .conteudo .titulo-1{color:rgb(236, 7, 186);font-style: italic;}
+ .conteudo h2.titulo-1{color:rgb(26, 7, 236);font-style: italic;}
+ .conteudo p {color:rgb(43, 94, 4)}
+
+ div {color:initial}
+
+ .pai > .filha > .filhadafilha {color:red}
