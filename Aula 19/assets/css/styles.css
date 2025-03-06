@@ -1,0 +1,14 @@
+ul li::before{
+    content:'-';background:red; color:white; display: block;
+    
+}
+.texto {font-size:24px}
+
+.texto::first-letter {font-size:100px; display:block; float: left; margin: 0 10px 10px 0; }
+
+.texto::first-line {background: red;}
+
+.texto::selection {color:darkgoldenrod}
+
+.input::placeholder {font-size: 20px; color:red}
+
