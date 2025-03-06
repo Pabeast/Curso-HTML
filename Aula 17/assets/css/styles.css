@@ -1,0 +1,5 @@
+*{margin:0;padding:0}
+
+p:not(.meio) {color:darkcyan}
+
+input:not(:checked) + p {background: rgb(19, 21, 119);}
