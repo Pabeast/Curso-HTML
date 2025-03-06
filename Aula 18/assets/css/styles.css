@@ -1,0 +1,8 @@
+*{margin:0;padding:0}
+
+.lista1 li:nth-child(odd) {background:darkgoldenrod}
+.lista1 li:nth-child(even) {background:rgb(23, 11, 184)}
+
+.lista2 li:nth-child(3n) {background: seagreen;}
+
+.lista3 li:nth-child(3n+2) {background: darkorange;}
