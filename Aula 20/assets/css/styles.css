@@ -1,0 +1,31 @@
+/*   Ordem de especificidade
+
+ID          CLASSES ATRIBUTOS E PSEUDO-CLASSES              ELEMENTOS E PSEUDO ELEMENTOS
+
+1                       0                                                   0
+0                       1                                                   0
+0                       0                                                   1
+
+!important: Essa regra vai forçar a aplicação de uma propriedade, mesmo que ela tenha uma especificidade menor
+
+
+Funciona como se fosse um númeral - quanto maior o número, maior a prioridade - 
+exemplo: id equivalente a 100, classes equivalente a 10 e elementos equivalente a 1*/
+
+
+p#p.p{
+    background: rgb(207, 9, 197);
+}
+
+#p {
+    background: red;
+}	
+
+.p{
+    background: blue !important;
+}
+
+#p.p{
+    background: green;
+}
+
